@@ -49,7 +49,9 @@ if moving
 	{
 		aclock = 0;
 		aframe += 1;
-		if aframe >= 4 {aframe = 0;}
+		if aframe == 2 {audio_play_sound(sfx_step2, 1, false);}
+		if aframe >= 4 {aframe = 0; audio_play_sound(sfx_step2, 1, false);}
+		
 	}
 }
 else

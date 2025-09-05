@@ -39,6 +39,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_init","path":"scripts/scr_init/scr_init.yy",},},
     {"id":{"name":"scr_inputs","path":"scripts/scr_inputs/scr_inputs.yy",},},
+    {"id":{"name":"sfx_step","path":"sounds/sfx_step/sfx_step.yy",},},
+    {"id":{"name":"sfx_step2","path":"sounds/sfx_step2/sfx_step2.yy",},},
     {"id":{"name":"spr_colors","path":"sprites/spr_colors/spr_colors.yy",},},
     {"id":{"name":"spr_mc","path":"sprites/spr_mc/spr_mc.yy",},},
     {"id":{"name":"spr_tiles","path":"sprites/spr_tiles/spr_tiles.yy",},},
