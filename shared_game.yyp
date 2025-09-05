@@ -34,10 +34,12 @@
   },
   "name":"shared_game",
   "resources":[
+    {"id":{"name":"obj_colors","path":"objects/obj_colors/obj_colors.yy",},},
     {"id":{"name":"obj_mc","path":"objects/obj_mc/obj_mc.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_init","path":"scripts/scr_init/scr_init.yy",},},
     {"id":{"name":"scr_inputs","path":"scripts/scr_inputs/scr_inputs.yy",},},
+    {"id":{"name":"spr_colors","path":"sprites/spr_colors/spr_colors.yy",},},
     {"id":{"name":"spr_mc","path":"sprites/spr_mc/spr_mc.yy",},},
     {"id":{"name":"spr_tiles","path":"sprites/spr_tiles/spr_tiles.yy",},},
     {"id":{"name":"ts_test","path":"tilesets/ts_test/ts_test.yy",},},
