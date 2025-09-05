@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,7 +34,13 @@
   },
   "name":"shared_game",
   "resources":[
+    {"id":{"name":"obj_mc","path":"objects/obj_mc/obj_mc.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_init","path":"scripts/scr_init/scr_init.yy",},},
+    {"id":{"name":"scr_inputs","path":"scripts/scr_inputs/scr_inputs.yy",},},
+    {"id":{"name":"spr_mc","path":"sprites/spr_mc/spr_mc.yy",},},
+    {"id":{"name":"spr_tiles","path":"sprites/spr_tiles/spr_tiles.yy",},},
+    {"id":{"name":"ts_test","path":"tilesets/ts_test/ts_test.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
