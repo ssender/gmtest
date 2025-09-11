@@ -21,12 +21,12 @@ function getinputs(){
 	}
 	else
 	{
-		_out.A = keyboard_check(vk_space);
-		_out.Ap = keyboard_check_pressed(vk_space);
-		_out.B = keyboard_check(ord("C"));
-		_out.Bp = keyboard_check_pressed(ord("C"));
-		_out.X = keyboard_check(ord("X"));
-		_out.Xp = keyboard_check_pressed(ord("X"));
+		_out.A = keyboard_check(ord("Z"));
+		_out.Ap = keyboard_check_pressed(ord("Z"));
+		_out.B = keyboard_check(ord("X"));
+		_out.Bp = keyboard_check_pressed(ord("X"));
+		_out.X = keyboard_check(ord("C"));
+		_out.Xp = keyboard_check_pressed(ord("C"));
 		_out.Lp = keyboard_check_pressed(vk_left);
 		_out.Rp = keyboard_check_pressed(vk_right);
 		_out.Up = keyboard_check_pressed(vk_up);
