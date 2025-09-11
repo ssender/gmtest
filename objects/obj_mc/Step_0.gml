@@ -36,8 +36,8 @@ switch moving[0]
 var _speed = 2;
 var _m = sqrt(sqr(_vx) + sqr(_vy));
 if _m != 0 {_vx = _speed*_vx/_m; _vy = _speed*_vy/_m;}
-x += _vx;
-y += _vy;
+move_and_collide(_vx, _vy, obj_collision, 4);
+
 
 if _m != 0 or aclock > 0
 {

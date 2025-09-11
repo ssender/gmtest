@@ -36,8 +36,9 @@
   "resources":[
     {"id":{"name":"ac_dodge","path":"animcurves/ac_dodge/ac_dodge.yy",},},
     {"id":{"name":"obj_attack","path":"objects/obj_attack/obj_attack.yy",},},
+    {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
     {"id":{"name":"obj_colors","path":"objects/obj_colors/obj_colors.yy",},},
-    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
+    {"id":{"name":"obj_enemybattle","path":"objects/obj_enemybattle/obj_enemybattle.yy",},},
     {"id":{"name":"obj_mc","path":"objects/obj_mc/obj_mc.yy",},},
     {"id":{"name":"obj_mcbattle","path":"objects/obj_mcbattle/obj_mcbattle.yy",},},
     {"id":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
@@ -52,6 +53,7 @@
     {"id":{"name":"sfx_step","path":"sounds/sfx_step/sfx_step.yy",},},
     {"id":{"name":"sfx_step2","path":"sounds/sfx_step2/sfx_step2.yy",},},
     {"id":{"name":"spr_bald","path":"sprites/spr_bald/spr_bald.yy",},},
+    {"id":{"name":"spr_baldsmall","path":"sprites/spr_baldsmall/spr_baldsmall.yy",},},
     {"id":{"name":"spr_colors","path":"sprites/spr_colors/spr_colors.yy",},},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},},
     {"id":{"name":"spr_magiccircle","path":"sprites/spr_magiccircle/spr_magiccircle.yy",},},
@@ -68,8 +70,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
